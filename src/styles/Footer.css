@@ -1,0 +1,28 @@
+.footer {
+    background-color: var(--secondary-color);
+    color: #ecf0f1;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer-social a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 0.75rem;
+    transition: color 0.15s ease;
+}
+
+.footer-social a:hover {
+    color: var(--primary-color);
+}

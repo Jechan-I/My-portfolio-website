@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  color: var(--secondary-color);
+}
+
+h2 {
+ font-size: 2.5rem;
+ margin-bottom: 1rem;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+      display: none; /* Simple hiding for demo; a hamburger menu would be better */
+  }
+  .about-content {
+      flex-direction: column;
+  }
+  .hero-content h1 {
+      font-size: 2.5rem;
+  }
+  .hero-content p {
+      font-size: 1.2rem;
+  }
+  h2 {
+      font-size: 2rem;
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "myportfolio-website",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "rename-assets": "node -e \"const fs=require('fs');const path=require('path');const src=path.join(__dirname,'src','Assets','Portfolio img.jpg');const dest=path.join(__dirname,'src','Assets','portfolio.jpg');try{if(fs.existsSync(src)){fs.renameSync(src,dest);console.log('Renamed asset to portfolio.jpg')}else{console.log('No old asset filename found, nothing to rename')}}catch(e){console.error('Failed renaming asset:',e);}\""
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+  }
+}
