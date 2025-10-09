@@ -1,12 +1,15 @@
+import ecommerceImg from '../assets/ecommerce.png';
+import portfolioImg from '../assets/portfolio.png';
+
 const portfolioData = {
             projects: [
                 {
                     title: "E-Commerce Platform",
                     description: "A fully responsive e-commerce website built with React, featuring product filtering, a shopping cart, and a mock checkout process.",
                     tags: ["React", "JavaScript", "CSS", "API"],
-                    imageUrl: "https://placehold.co/600x400/3498db/ffffff?text=E-Commerce",
-                    liveUrl: "#",
-                    codeUrl: "#",
+                    imageUrl: ecommerceImg,
+                    liveUrl: "https://e-commerce-website-omega-silk.vercel.app/",
+                    codeUrl: "https://github.com/Jechan-I/E-Commerce-website",
                 },
                 {
                     title: "Task Management App",
@@ -20,9 +23,9 @@ const portfolioData = {
                     title: "Portfolio Website",
                     description: "The very portfolio you are looking at. Designed to be clean, modern, and fully responsive to showcase my skills and projects.",
                     tags: ["React", "CSS", "Responsive Design"],
-                    imageUrl: "https://placehold.co/600x400/e74c3c/ffffff?text=Portfolio",
-                    liveUrl: "#",
-                    codeUrl: "#",
+                    imageUrl: portfolioImg,
+                    liveUrl: "https://my-portfolio-website-delta-swart.vercel.app/",
+                    codeUrl: "https://github.com/Jechan-I/My-portfolio-website",
                 }
             ],
             skills: [

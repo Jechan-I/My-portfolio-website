@@ -1,13 +1,13 @@
 import React from 'react';
 import '../styles/About.css';
-import portfolioImg from '../Assets/portfolio.jpg';
+import myImg from '../Assets/myImg.jpg';
 
 const About = () => {
             return (
                 <section id="about" className="container">
                     <h2>About Me</h2>
                     <div className="about-content">
-                        <img src={portfolioImg} alt="Portfolio" className="about-image" />
+                        <img src={myImg} alt="Portfolio" className="about-image" />
                         <div className="about-text">
                             <p>
                                 I'm a passionate Front-End Developer with a love for creating beautiful, intuitive, and high-performance web applications. With a strong foundation in JavaScript,React,Typescript,Node.js,HTML5 and modern CSS, I enjoy turning complex problems into simple, elegant solutions.
