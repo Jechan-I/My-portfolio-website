@@ -1,5 +1,5 @@
-import ecommerceImg from '../assets/ecommerce.png';
-import portfolioImg from '../assets/portfolio.png';
+import ecommerceImg from '../Assets/ecommerce.png';
+import portfolioImg from '../Assets/portfolio.png';
 
 const portfolioData = {
             projects: [
