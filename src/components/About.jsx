@@ -10,7 +10,7 @@ const About = () => {
                         <img src={myImg} alt="Portfolio" className="about-image" />
                         <div className="about-text">
                             <p>
-                                I'm a passionate Front-End Developer with a love for creating beautiful, intuitive, and high-performance web applications. With a strong foundation in JavaScript,React,Typescript,Node.js,HTML5 and modern CSS, I enjoy turning complex problems into simple, elegant solutions.
+                                I'm a passionate Front-End Developer with a love for creating beautiful, intuitive, and high-performance web applications. With a strong foundation in JavaScript,React,HTML5,modern CSS and Git,I enjoy turning complex problems into simple, elegant solutions.
                             </p>
                              <p>
                                 When I'm not coding, you can find me exploring the latest web technologies, contributing to open-source projects, or trading forex market. I'm always eager to learn and grow as a developer and as a person.
