@@ -1,5 +1,6 @@
 import ecommerceImg from '../Assets/ecommerce.png';
 import portfolioImg from '../Assets/portfolio.png';
+import fintrackImg from '../Assets/fintrackImg.png';
 
 const portfolioData = {
             projects: [
@@ -10,6 +11,14 @@ const portfolioData = {
                     imageUrl: ecommerceImg,
                     liveUrl: "https://e-commerce-website-omega-silk.vercel.app/",
                     codeUrl: "https://github.com/Jechan-I/E-Commerce-website",
+                },
+                {
+                    title: "Personal Finance Tracker",
+                    description: "A complete personal finance tracker web application built with React, Zustand, React Router, and pure CSS3",
+                    tags: ["React", "JavaScript", "CSS3", "React Router", "Zustand"],
+                    imageUrl: fintrackImg,
+                    liveUrl: "https://personal-finance-tracker-black-one.vercel.app/",
+                    codeUrl: "https://github.com/Jechan-I/Personal-Finance-Tracker",
                 },
                 
                 {
