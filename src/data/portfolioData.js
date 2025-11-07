@@ -26,7 +26,7 @@ const portfolioData = {
                     description: "The very portfolio you are looking at. Designed to be clean, modern, and fully responsive to showcase my skills and projects.",
                     tags: ["React", "CSS", "Responsive Design"],
                     imageUrl: portfolioImg,
-                    liveUrl: "https://my-portfolio-website-delta-swart.vercel.app/",
+                    liveUrl: "https://my-portfolio-website-stcx.vercel.app/",
                     codeUrl: "https://github.com/Jechan-I/My-portfolio-website",
                 }
             ],
